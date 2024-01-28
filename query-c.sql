@@ -1,4 +1,6 @@
 -- Select average values of PM2_5 and VPM2_5 for each station for all available data
+-- Extend the previous query to show these values for all stations for all the data. 
+
 SELECT 
     S.SiteName,          -- Selecting the name of the station
     AVG(R.PM2_5) AS AvgPM2_5,  -- Calculating the average value of PM2_5
@@ -10,7 +12,6 @@ JOIN
 GROUP BY 
     S.SiteName;   -- Grouping the results by station name
 
--- This query will output the average concentrations of PM2_5 and VPM2_5 for each station
--- based on all the readings available in the database.
--- basically where clause is deleted.
--- since we cleansed the data before inserting into mysql, not every station is listed after this query.
+-- This query will output the average concentrations of PM2_5 and VPM2_5 for each station based on all the readings available in the database.
+-- Basically where clause is deleted.
+-- Since we cleansed the data before inserting into mysql, not every station is listed after this query.
