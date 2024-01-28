@@ -1,0 +1,20 @@
+﻿Measure,Description,Unit
+Date Time ,Date and time of measurement,datetime
+SiteID,Site ID for the station,integer
+NOx,Concentration of oxides of nitrogen,㎍/m3
+NO2,Concentration of nitrogen dioxide,㎍/m3
+NO,Concentration of nitric oxide,㎍/m3
+PM10,Concentration of particulate matter <10 micron diameter,㎍/m3
+O3,Concentration of ozone Concentration of non - volatile particulate matter <10 micron diameter,㎍/m3
+Temperature,Air temperature,°C
+ObjectID,Object (?),Integer
+ObjectID2,Object (?) ,Integer
+NVPM10,Concentration of non - volatile particulate matter <10 micron diameter,㎍/m3
+VPM10,Concentration of volatile particulate matter <10 micron diameter,㎎/m3
+NVPM2_5,Concentration of non volatile particulate matter <2.5 micron diameter,㎍/m3
+PM2_5,Concentration of particulate matter <2.5 micron diameter,㎍/m3
+VPM2_5 ,Concentration of volatile particulate matter <2.5 micron diameter,㎍/m3
+CO,Concentration of carbon monoxide,㎎/m3
+RH,Relative Humidity ,%
+Pressure,Air Pressure,mbar
+SO2,Concentration of sulphur dioxide,㎍/m3
