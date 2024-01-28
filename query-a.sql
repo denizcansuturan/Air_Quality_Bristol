@@ -1,3 +1,4 @@
+-- Return the date/time, station name and the highest recorded value of nitrogen oxide (NOx) found in the dataset for the year 2022.
 -- Selects the date/time, station name, and NOx value from Readings and Station tables
 SELECT 
     R.Date_Time,  -- Date and time of the reading
