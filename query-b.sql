@@ -1,4 +1,5 @@
 -- Select average values of PM2_5 and VPM2_5 for each station for the year 2022 during 08:00 hours
+-- Return the mean values of PM2.5 (particulate matter <2.5 micron diameter) & VPM2.5 (volatile particulate matter <2.5 micron diameter) by each station for the year 2022 for readings taken on or near 08:00 hours (peak traffic intensity)
 SELECT 
     S.SiteName,         -- Selecting the name of the station
     AVG(R.PM2_5) AS AvgPM2_5,  -- Calculating the average value of PM2_5
